@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #222;
+  background: #efefef url('https://dbq8hrmshvuto.cloudfront.net/34c/b7c62/1442/480f/bf3a/b9c7486f141e/normal/79548.jpg') no-repeat center center;
+  padding: 50px;
+}
+
+h1{
+  font-size: 32px;
+}
+h2{
+  font-size: 24px;
+}
+
+h1, h2{
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: 700;
+}
+.cite, blockquote {
+  border: 1px solid #ccc;
+  padding: 32px;
+  background-color: #fff;
+}
+
+a {
+  color: magenta;
+  text-decoration: none;
+  transition: color 250ms linear;
+}
+
+a:hover {
+  color: green;
+}
+
+ul{
+  list-style: disc;
+}
+ol{
+  list-style: decimal;
+}
+ul, ol{
+  margin-left: 20px;
+  margin-bottom: 1em;
+}
+
+ul ol, ul ul{
+  margin-bottom: 0;
+}
